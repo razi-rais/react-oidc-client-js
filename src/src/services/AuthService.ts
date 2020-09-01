@@ -1,4 +1,4 @@
-import { Log, User, UserManager } from 'oidc-client';
+import { Log, User, UserManager, UserManagerSettings } from 'oidc-client';
 
 import { Constants } from '../helpers/Constants';
 
