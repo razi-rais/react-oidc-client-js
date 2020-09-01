@@ -52,9 +52,7 @@ export class AuthService {
   } as UserManagerSettings;
     
      this.userManager = new UserManager(settings);
-    
-    
-    this.userManager = new UserManager(settings);
+   
 
     Log.logger = console;
     Log.level = Log.INFO;
