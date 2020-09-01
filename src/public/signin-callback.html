@@ -14,7 +14,10 @@
 
     <script src="oidc-client.min.js"></script>
     <script>
-        new Oidc.UserManager({ response_mode: "query" }).signinRedirectCallback().then(function () {
+        //new Oidc.UserManager({ response_mode: "query" }).signinRedirectCallback().then(function () {
+        // Settings loadUserInfo: false because b2c does not currently support userinfo endpoint. 
+         new Oidc.UserManager({ response_mode: "query",  loadUserInfo: false }).signinRedirectCallback().then(function () {
+     
             window.location = "index.html";
         }).catch(function (e) {
             console.error(e);
