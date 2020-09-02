@@ -28,7 +28,7 @@ export class AuthService {
       loadUserInfo: false, 
 
       // The URL where the Web UI receives the login result
-      redirect_uri: 'http://localhost:4200/signin-callback.html',
+      redirect_uri: 'http://localhost:3000/signin-callback.html',
 
       // The no longer recommended implicit flow must be used if CORS is disabled
       // If you want to use impicit flow use id_token instead of code for the return type.
@@ -45,7 +45,7 @@ export class AuthService {
         authorization_endpoint: 'https://contoso.b2clogin.com/contoso.onmicrosoft.com/oauth2/v2.0/authorize?p=b2c_1a_signup_signin',
         token_endpoint: 'https://contoso.b2clogin.com/contoso.onmicrosoft.com/oauth2/v2.0/token?p=b2c_1a_signup_signin',
         jwks_uri : 'https://contoso.b2clogin.com/contoso.onmicrosoft.com/discovery/v2.0/keys?p=b2c_1a_signup_signin',
-        end_session_endpoint: "https://contoso.b2clogin.com/contoso.onmicrosoft.com/oauth2/v2.0/logout?p=b2c_1a_signup_signin&post_logout_redirect_uri=http%3A%2F%2Flocalhost:4200%2F"
+        end_session_endpoint: "https://contoso.b2clogin.com/contoso.onmicrosoft.com/oauth2/v2.0/logout?p=b2c_1a_signup_signin&post_logout_redirect_uri=http%3A%2F%2Flocalhost:3000%2F"
 
     },
 
