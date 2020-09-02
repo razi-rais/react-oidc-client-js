@@ -62,7 +62,7 @@
 	},
 	"passwordCredentials": [],
 	"preAuthorizedApplications": [],
-	"publisherDomain": "ultimatetest1.onmicrosoft.com",
+	"publisherDomain": "contoso.onmicrosoft.com",
 	"replyUrlsWithType": [
 		{
 			"url": "http://localhost:3000/signin-callback.html",
